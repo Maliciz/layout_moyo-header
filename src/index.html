@@ -12,56 +12,111 @@
     />
     <title>Moyo header</title>
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="./style.css"
     />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="header__container">
-        <div class="header__logo">
+        <a
+          href="#"
+          class="header__logo"
+        >
           <img
             src="images/logo.png"
             alt="Moyo logo"
+            class="header__logo-img"
           />
-        </div>
+        </a>
+
         <nav class="header__nav">
-          <ul>
-            <li>
+          <ul class="nav__list">
+            <li class="nav__item">
               <a
                 href="#Apple"
-                class="is-active"
+                class="nav__link is-active"
               >
                 Apple
               </a>
             </li>
-            <li>
-              <a href="#Samsung">Samsung</a>
+
+            <li class="nav__item">
+              <a
+                href="#Samsung"
+                class="nav__link"
+              >
+                Samsung
+              </a>
             </li>
-            <li>
-              <a href="#Smartphones">Smartphones</a>
+
+            <li class="nav__item">
+              <a
+                href="#Smartphones"
+                class="nav__link"
+              >
+                Smartphones
+              </a>
             </li>
-            <li>
+
+            <li class="nav__item">
               <a
                 href="#Laptops"
-                class="laptops"
+                class="nav__link laptops"
                 data-qa="hover"
               >
                 Laptops & Computers
               </a>
             </li>
-            <li>
-              <a href="#Gadgets">Gadgets</a>
+
+            <li class="nav__item">
+              <a
+                href="#Gadgets"
+                class="nav__link"
+              >
+                Gadgets
+              </a>
             </li>
-            <li>
-              <a href="#Tablets">Tablets</a>
+
+            <li class="nav__item">
+              <a
+                href="#Tablets"
+                class="nav__link"
+              >
+                Tablets
+              </a>
             </li>
-            <li>
-              <a href="#Photo">Photo</a>
+
+            <li class="nav__item">
+              <a
+                href="#Photo"
+                class="nav__link"
+              >
+                Photo
+              </a>
             </li>
-            <li>
-              <a href="#Video">Video</a>
+
+            <li class="nav__item">
+              <a
+                href="#Video"
+                class="nav__link"
+              >
+                Video
+              </a>
             </li>
           </ul>
         </nav>
